@@ -3,7 +3,7 @@
 
 Name:           authy
 Version:        2.2.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Two factor authentication desktop application
 ExclusiveArch:  x86_64
 License:        Proprietary
@@ -47,6 +47,9 @@ ln -s /opt/authy/authy %{buildroot}%{_bindir}
 %{_datarootdir}/*
 
 %changelog
+* Fri Nov 18 2022 th1nhhdk <th1nhhdk@tutanota.com>
+- Bump version for Fedora Linux 37
+
 * Tue Oct 04 2022 th1nhhdk <th1nhhdk@tutanota.com>
 - Spec file cleanup
 
